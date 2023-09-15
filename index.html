@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Touch</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Swiper-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  
+</head>
+
+<body>
+    
+    <!------------------------------  Topbar for contact info  ------------------------------------------->
+
+    <div class="topbar">
+        <div class="container">
+            <!--social media icons-->
+            <div class="topbar-item">
+                <span>Follow us</span>
+                <a href="https://www.facebook.com/momstouch" target="_blank" class="social-media-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <a href="https://twitter.com/momstouch" target="_blank" class="social-media-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/monstouch" target="_blank" class="social-media-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="separator"></div>
+
+            <!--phone number link-->
+            <a href="tel:+96176949549"class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">+961 76 949 549</span>
+            </a>
+
+            <div class="separator"></div>
+
+            <!--email address link-->
+            <a href="mailto:momstouch@gmail.com" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">momstouch@gmail.com</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!------------------------------------------   Header  ------------------------------------------->
+
+    <header class="header" data-header>
+
+        <div class="container">
+
+            <!--logo-->
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" width="190" height="90" alt="Mom's Touch - Home">
+            </a>
+
+            <!--navigation menu-->
+            <nav class="navbar" data-navbar>
+
+                <!--close botton for mobile menu-->
+                <button class="close-btn" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <!--logo mobile version-->
+                <a href="#" class="logo">
+                    <img src="assets/images/logo.png" width="190" height="90" alt="Mom's Touch - Home">
+                </a>
+
+                <!--list of navigation links-->
+                <ul class="navbar-list">
+
+                    <!--Home-->
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+
+                    <!--About-->
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+
+                    <!--Products-->
+                    <li class="navbar-item">
+                        <a href="#products" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Products</span>
+                        </a>
+                    </li>
+                    
+                    <!--Reviews-->
+                    <li class="navbar-item">
+                        <a href="#reviews" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Reviews</span>
+                        </a>
+                    </li>
+
+                    <!--Contact-->
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+                            <span class="span">Contact Us</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!--contact info-->
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Keep in Touch</p>
+                    <address class="body-4">Mom's Touch Bakery, Beirut Achrafieh, 13th street, Lebanon</address>
+                    <p class="body-4 navbar-text">Open: 8:00am - 11:00pm</p>
+                    <a href="mailto:momstouch@gamil.com" class="body-4 sidebar-link">momstouch@gmail.com</a>
+                    <div class="separator"></div>
+                    <p class="contact-label">For Your Orders</p>
+                    <a href="tel:+961 76 949 549" class="body-1 contact-number hover-underline">+961 76 949 549</a>
+                </div>
+            </nav>
+
+            <!--shopping cart-->
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+
+            <!--open mobile menu button-->
+            <!--the three spans right here will represent a hamburger menu icon-->
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <!--overlay for mobile menu-->
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+
+    </header>
+
+   <!------------------------------------------   Slider  ------------------------------------------->
+    <main>
+        <article>
+            <section class="hero text-center" aria-label="home" id="home">
+                <ul class="hero-slider" data-hero-slider>
+                    <li class="slider-item active" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="assets/images/moms-touch-slider1.jpg" alt="" class="img-cover">
+                        </div>
+                        <h1 class="display-1 hero-title slider-reveal">Taste the Difference<br>Experience the Goodness!</h1>
+                        <p class="body-2 hero-text slider-reveal">Taste the Love, Share the Joy</p>
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text">View Our Products</span>
+                        </a>
+                    </li>
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="assets/images/moms-touch-slider2.jpg" alt="" class="img-cover">
+                        </div>
+                        <h1 class="display-1 hero-title slider-reveal">Flavors that Dance<br>Textures that Sing</h1>
+                        <p class="body-2 hero-text slider-reveal">Taste the Love, Share the Joy</p>
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">View Our Products</span>
+                        </a>
+                    </li>
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="assets/images/moms-touch-slider3.jpg" alt="" class="img-cover">
+                        </div>
+                        <h1 class="display-1 hero-title slider-reveal">Baked to Impress<br>Sure to Delight</h1>
+                        <p class="body-2 hero-text slider-reveal">Taste the Love, Share the Joy</p>
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">View Our Products</span>
+                        </a>
+                    </li>
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="assets/images/moms-touch-slider4.jpg" alt="" class="img-cover">
+                        </div>
+                        <h1 class="display-1 hero-title slider-reveal">Baked Fresh<br>Delivered with Love</h1>
+                        <p class="body-2 hero-text slider-reveal">Taste the Love, Share the Joy</p>
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">View Our Products</span>
+                        </a>
+                    </li>
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="assets/images/moms-touch-slider5.jpg" alt="" class="img-cover">
+                        </div>
+                        <h1 class="display-1 hero-title slider-reveal">A Slice of Heaven<br>in Every Bite</h1>
+                        <p class="body-2 hero-text slider-reveal">Taste the Love, Share the Joy</p>
+                        <a href="#" class="btn btn-primary slider-reveal">
+                            <span class="text text-1">View Our Products</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                    <ion-icon name="chevron-back"></ion-icon>
+                </button>
+
+                <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </button>
+
+               
+            </section>
+        </article>
+    </main>
+
+
+       <!------------------------------------------   Services  ------------------------------------------->
+
+    <section class="section services text-center">
+        <div class="container">
+            <h2 class="headline-1 section-title">Main Services We Provide</h2>
+            <ul class="grid-list">
+
+                <li class="service">
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/icons/chef.png" width="64px" height="64px" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Top Chefs</h3>
+                        <p class="label-1 card-text">Behind every mouthwatering creation at Mom's Touch is a 
+                            team of dedicated chefs who excel in their craft.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="service">
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/icons/bakery.png" width="64px" height="64px" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Fresh Ingredients</h3>
+                        <p class="label-1 card-text">From farm to table, our commitment to using fresh,
+                             locally sourced ingredients shines through in every bakery delight.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="service"> 
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/icons/rolling-pin.png" width="64px" height="64px" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Professional</h3>
+                        <p class="label-1 card-text">From concept to presentation, Mom's Touch displays a level 
+                            of professionalism that leaves a lasting impression.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="service">
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img src="assets/icons/delivery-truck.png" width="64px" height="64px" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Timely Delivery</h3>
+                        <p class="label-1 card-text">Our timely delivery service ensures that your bakery 
+                            delights arrive fresh and on schedule.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+       <!------------------------------------------   About  ------------------------------------------->
+    
+
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-img">
+                <img src="assets/images/pngegg3.png" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="headline-1 section-title">Our Bakery</h2>
+                <p class="about-text">Welcome to Mom's Touch, where every bite is a journey into the heart of
+                     homemade flavors. With a commitment to excellence, we carefully craft each baked delight
+                      using only the finest ingredients. From our oven-fresh bread to irresistible pastries and
+                       cakes, our creations are a testament to the artistry and passion we pour into our recipes.
+                        At Mom's Touch, we invite you to savor the perfect harmony of tradition and innovation,
+                         all in one delectable bite.
+                </p>
+                <a href="#" class="read-more">Read More</a>
+        </div>
+    </section>
+
+    <!------------------------------------------------- Counter--------------------------------------------------->
+
+    <div class="counters">
+        <div>
+            <div class="counter">
+                <h1><span data-count="2100">0</span>+</h1>
+                <h3>Happy Customers</h3>
+            </div>
+
+            <div class="counter">
+                <h1><span data-count="5672">0</span>+</h1>
+                <h3>Followers</h3>
+            </div>
+
+            <div class="counter">
+                <h1><span data-count="3200">0</span>+</h1>
+                <h3>Deliverd Dishes</h3>
+            </div>
+
+            <div class="counter">
+                <h1><span data-count="5070">0</span>+</h1>
+                <h3>Worked Hours</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------------------------------- Products ------------------------------------------------------>
+
+    <section class="section products text-center" id="products">
+        <div class="container">
+            <h2 class="headline-1 section-title">Our Products</h1>
+            </p>
+
+            <ul class="products-list">
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/c0/d6/70/c0d6700dfa09a03984fe0c18d3b61f94.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Golden-baked Simit</h5>
+                        <h5 class="price"> $4 </h5>
+                    </div>
+                    <p>Turkish Tradition in Every Bite.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/1e/31/f0/1e31f05625dbd80621f7eb7c6abcd5b0.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Challah Bread</h5>
+                        <h5 class="price"> $8 </h5>
+                    </div>
+                    <p>Wholesome Elegance in Every Slice</p>
+                    <button>Add to Cart</button>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/02/40/33/024033ff04668ae862c57902c6f54a05.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Cream Croissant</h5>
+                        <h5 class="price"> $3 </h5>
+                    </div>
+                    <p>Indulgent Bliss in Every Flaky Layer.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/29/80/44/298044b73bacb4cab2a811468649596c.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Blueberry Symphony Pie</h5>
+                        <h5 class="price"> $5 </h5>
+                    </div>
+                    <p>A Melody of Flavor in Every Slice</p>
+                        <button>Add to Cart</button>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/f9/80/d9/f980d9555512442fa3a886fb3c751e4d.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Strawberry Cake</h5>
+                        <h5 class="price"> $15 </h5>
+                    </div>
+                    <p>Strawberry Swirl Vanilla Euphoria</p>
+                        <button>Add to Cart</button>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/fa/36/98/fa3698631c01d4db3061ad459533a73e.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Chocolate cake</h5>
+                        <h5 class="price"> $20 </h5>
+                    </div>
+                    <p>Decadent Chocolate Temptation</p>
+                        <button>Add to Cart</button>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/d7/cd/d7/d7cdd7553f9bce19ee28200fc14dda89.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Pumpkin Cupcake</h5>
+                        <h5 class="price"> $4 </h5>
+                    </div>
+                    <p>Embrace an Irresistible Autumn's Delight</p>
+                        <button>Add to Cart</button>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <img src="https://i.pinimg.com/564x/25/04/3d/25043d4b1ef4a2cf201d0d3ab2bcab6e.jpg">
+                <div class="details">
+                    <div class="details-sub">
+                        <h5>Apple-Blackberry Pie</h5>
+                        <h5 class="price"> $10 </h5>
+                    </div>
+                    <p>Indulge in a Harmonious Blend of Flavors</p>
+                        <button>Add to Cart</button>
+                </div>
+            </li>
+        </ul>
+
+        <button class="view-btn">View All Products</button>
+        
+        </div>
+    </section>
+
+<!---------------------------reviews--------------------------->
+    <section class="section reviews text-center" id="reviews">
+        <div class="container">
+            <div class="board">
+                <h2 class="headline-1">Our Customers Feedback</h2>
+                <p class="body-2">Customers adore Mom's Touch Bakery for its exceptional flavors,
+                    artisanal quality, and commitment to excellence, evident in their glowing reviews
+                </p>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="flex">
+                                <div class=" label-1 comments">
+                                    At Mom's Touch Bakery, every bite is a masterpiece of taste and quality.
+                                    From classics to innovations, every treat is a masterpiece that keeps me coming back for more.
+                                </div>
+                                <div class="profile">
+                                    <img src="https://i.pinimg.com/564x/72/55/6d/72556dfe80bc0a1cf0154c49fc6ae539.jpg" alt="">
+                                    <a href="#">Emma Parker</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="flex">
+                                <div class=" label-1 comments">
+                                    The moment you step in, you're enveloped in a warm, inviting atmosphere.
+                                    The range of treats, from classic pastries to inventive creations, is a testament to their passion for baking.
+                                </div>
+                                <div class="profile">
+                                    <img src="https://i.pinimg.com/564x/8b/06/1c/8b061cd10207c36e92b9efb264e43630.jpg" alt="">
+                                    <a href="#">Alex Bennett</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="flex">
+                                <div class=" label-1 comments">
+                                    An absolute delight! The attention to detail and the use of fresh ingredients truly make their 
+                                    treats stand out. A bakery that knows how to create pure magic on a plate!
+                                </div>
+                                <div class="profile">
+                                    <img src="https://i.pinimg.com/564x/7c/84/a0/7c84a02e7e4234bcd5da2e288190cc6e.jpg" alt="">
+                                    <a href="#">Emily Johnson</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="flex">
+                                <div class=" label-1 comments">
+                                    It's rare to encounter a bakery where every bite feels like a comforting memory.
+                                    The dedication to maintaining the highest standards of taste and freshness shines through in every indulgence.
+                                </div>
+                                <div class="profile">
+                                    <img src="https://i.pinimg.com/564x/f3/3f/df/f33fdf48f11fa142cb1a77a40d45a80a.jpg" alt="">
+                                    <a href="#">Michael Reynolds</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <!------------------------------------------------------ contact -------------------------------------------------------->
+
+    <section class="section footer text-center" id="contact">
+        <div class="container">
+            <div class="box">
+                <h3>address</h3>
+                <p>Mom's Touch Bakery, Beirut Achrafieh
+                    <br>13th street, Lebanon</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/momstouch" target="_blank" class="social-media-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+    
+                    <a href="https://twitter.com/momstouch" target="_blank" class="social-media-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+    
+                    <a href="https://www.instagram.com/monstouch" target="_blank" class="social-media-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>E-mail</h3>
+                <a href="mailto:momstouch@gmail.com" class="link">
+                    <div class="email">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        <span>momstouch@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>Call Us</h3>
+                <a href="tel:+96176949549" class="link">
+                    <div class="phone-number">
+                        <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                        <span>+961 76 949 549</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>opening hours</h3>
+                <p>8:00am - 11:00pm</p>
+            </div>
+
+        </div>
+
+        <div class="credit">Done by Nour Hussein</div>
+
+    </section>
+    
+        <!--swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+        <!--ionicon link-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
